@@ -1,22 +1,22 @@
 const content = {
     exhibitions: [
-        '../assets/exhibitions/1.png',
-        '../assets/exhibitions/2.png',
-        '../assets/exhibitions/3.png',
+        'assets/exhibitions/1.png',
+        'assets/exhibitions/2.png',
+        'assets/exhibitions/3.png',
     ],
     sentenses: [
-        '../assets/sentenses/2-2.png',
-        '../assets/sentenses/2-3.png',
-        '../assets/sentenses/2-4.png',
-        '../assets/sentenses/2-5.png',
-        '../assets/sentenses/2-1.png',
+        'assets/sentenses/2-2.png',
+        'assets/sentenses/2-3.png',
+        'assets/sentenses/2-4.png',
+        'assets/sentenses/2-5.png',
+        'assets/sentenses/2-1.png',
     ],
     dishes: [
-        '../assets/dishes/1-2.png',
-        '../assets/dishes/1-3.png',
-        '../assets/dishes/1-4.png',
-        '../assets/dishes/1-5.png',
-        '../assets/dishes/1-1.png',
+        'assets/dishes/1-2.png',
+        'assets/dishes/1-3.png',
+        'assets/dishes/1-4.png',
+        'assets/dishes/1-5.png',
+        'assets/dishes/1-1.png',
     ],
 }
 
