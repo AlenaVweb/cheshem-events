@@ -1,0 +1,77 @@
+#loader-screen {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 10;
+
+    display: flex;
+
+    flex-direction: column;
+
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#first-load-block {
+    animation-delay: 2s;
+}
+
+#second-load-block {
+    animation-delay: 1.5s;
+}
+
+#third-load-block {
+    animation-delay: 1s;
+}
+
+#forth-load-block {
+    animation-delay: 0.5s;
+}
+
+#loader-screen .load-block {
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    width: 100vw;
+    height: 25vh;
+
+    z-index: 10;
+
+    animation-duration: 4s;
+    animation-name: loader;
+    animation-iteration-count: infinite;
+
+    background-color: #fff;
+}
+
+@keyframes loader {
+    0% {
+        background-color: #fff;
+    }
+
+    5% {
+        background-color: #0047ff;
+    }
+
+    50% {
+        background-color: #0047ff;
+    }
+
+    55% {
+        background-color: #fff;
+    }
+
+    100% {
+        background-color: #fff;
+    }
+}
+
+@keyframes hide-loader {
+    to {
+        display: none;
+    }
+}
